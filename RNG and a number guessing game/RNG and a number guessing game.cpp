@@ -41,6 +41,7 @@ void demoSimpleRNG()
 
 int main()
 {
+	
 	const int N = 100; 
 	int correctNumber = generateRandomNumberBetween0AndN(N);
 
@@ -89,5 +90,5 @@ int main()
 		std::cout << "Huzzah!\n";
 	}
 
-
+	//
 }
