@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reading a large file with a
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RNG and a number guessing game", "RNG and a number guessing game\RNG and a number guessing game.vcxproj", "{8CA2E9B9-CEAE-49CC-982C-9E597344ACF2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demoing the FOR loop", "Demoing the FOR loop\Demoing the FOR loop.vcxproj", "{06F12742-D96B-474C-A705-C87DD106A783}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{8CA2E9B9-CEAE-49CC-982C-9E597344ACF2}.Release|x64.Build.0 = Release|x64
 		{8CA2E9B9-CEAE-49CC-982C-9E597344ACF2}.Release|x86.ActiveCfg = Release|Win32
 		{8CA2E9B9-CEAE-49CC-982C-9E597344ACF2}.Release|x86.Build.0 = Release|Win32
+		{06F12742-D96B-474C-A705-C87DD106A783}.Debug|x64.ActiveCfg = Debug|x64
+		{06F12742-D96B-474C-A705-C87DD106A783}.Debug|x64.Build.0 = Debug|x64
+		{06F12742-D96B-474C-A705-C87DD106A783}.Debug|x86.ActiveCfg = Debug|Win32
+		{06F12742-D96B-474C-A705-C87DD106A783}.Debug|x86.Build.0 = Debug|Win32
+		{06F12742-D96B-474C-A705-C87DD106A783}.Release|x64.ActiveCfg = Release|x64
+		{06F12742-D96B-474C-A705-C87DD106A783}.Release|x64.Build.0 = Release|x64
+		{06F12742-D96B-474C-A705-C87DD106A783}.Release|x86.ActiveCfg = Release|Win32
+		{06F12742-D96B-474C-A705-C87DD106A783}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

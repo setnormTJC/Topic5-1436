@@ -7,7 +7,9 @@
 
 int main()
 {
-    const std::string filename = "C:/Users/Work/Desktop/LesMiserables.txt"; 
+    //const std::string filename = "C:/Users/Work/Desktop/LesMiserables.txt"; 
+    const std::string filename = "aTextfile.txt"; //a relative filepath
+
     std::ifstream fin(filename);
     
     if (!fin.is_open())

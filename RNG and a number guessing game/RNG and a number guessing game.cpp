@@ -7,6 +7,7 @@
 
 int generateRandomNumberBetween0AndN(const int N)
 {
+	//rand(); RAND_MAX //deprecated ("frowned upon"/unsafe)
 	std::mt19937 rng(std::random_device{}());
 
 	std::uniform_int_distribution<int> randomDistribution(0, N); 
@@ -74,9 +75,11 @@ int main()
 		{
 			std::cout << "Too LOW!\n";
 		}
-	}
+	} //end while 
 
-	if (!gameWon)
+	//auto someLetter = 'a'; 
+
+	if (!gameWon) //alternative to this is: gameWon == false
 	{
 		std::cout << "Too many guesses - lost\n";
 	}

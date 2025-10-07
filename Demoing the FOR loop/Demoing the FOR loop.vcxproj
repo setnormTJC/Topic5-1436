@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2d3b77c9-3655-4fdb-bdfa-d7fcba42584f}</ProjectGuid>
-    <RootNamespace>Readingalargefilewithawhileloop</RootNamespace>
+    <ProjectGuid>{06f12742-d96b-474c-a705-c87dd106a783}</ProjectGuid>
+    <RootNamespace>DemoingtheFORloop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,10 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Reading a large file with a while loop.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="aTextfile.txt" />
+    <ClCompile Include="Demoing the FOR loop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
